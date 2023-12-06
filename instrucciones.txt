@@ -1,0 +1,12 @@
+// Procesos de Olvido de Contraseña
+#1. El usuario hace clic en Olvidé mi Contraseña
+#2. Crear un token de reinicio (cadena) y guardarlo en nuestra base de datos
+#3. Enviar el token de reinicio al correo electrónico del usuario en forma de enlace
+#4. Cuando el usuario hace clic en el enlace, comparar el token de reinicio en el enlace con el guardado en la base de datos
+#5. Si coinciden, cambiar la contraseña del usuario
+
+// Pasos para Olvidar la Contraseña
+#1. Crear ruta para olvidar la contraseña
+#2. Crear modelo de token
+#3. Crear función de envío de correo electrónico
+#4. Crear función de controlador
