@@ -69,7 +69,7 @@ const userRegister = asyncHandler(async (req, res) => {
 
     const subject = 'Confirma tu cuenta';
     const send_to = newUser.email;
-    const sent_from = 'InventarioApp <inventarioApp@resend.dev>';
+    const sent_from = 'InventarioApp <hola@inventario-app.com>';
 
     try {
         // Send the email
@@ -466,7 +466,7 @@ const forgotPassword = asyncHandler(async (req, res) => {
 
     const subject = 'Restablecer Contraseña';
     const send_to = user.email;
-    const sent_from = 'InventarioApp <inventarioApp@resend.dev>';
+    const sent_from = 'InventarioApp <info@inventario-app.com>';
 
     try {
         // Enviamos el email

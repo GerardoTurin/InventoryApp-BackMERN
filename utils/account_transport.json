@@ -1,0 +1,11 @@
+{
+    "service": "gmail",
+    "auth": {
+        "type": "OAuth2",
+        "user": "gerat1993@gmail.com",
+        "clientId":"605138189266-mcta9k5t9jd0tq2519ptm3sgd4u1djgb.apps.googleusercontent.com",
+        "clientSecret":"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",
+        "refreshToken":"1//046T52SVy3ABqCgYIARAAGAQSNwF-L9IrubNcEDa9AwXzs8S15QHXc0PM_TDmfpNPAt78IHzooFkR-YcM7vzx5Ahs_v0L5sS-aME"
+    }
+
+}
