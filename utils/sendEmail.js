@@ -13,13 +13,13 @@ const sendEmail = async (datos) => {
 
     // Creamos el objeto transporter, que es el que se encarga de enviar el email...
     const transporter = nodemailer.createTransport({
-        host: 'smtp-relay.brevo.com',
+        host: process.env.EMAIL_HOST,
         port: 587,
         //secure: true,
         //connectionTimeout: 6000, // aumentar timeout para conexiones lentas
         auth: {
-            user: 'gerat1993@gmail.com',
-            pass: 'xsmtpsib-3ec93483a0b0e9786f9a133a38ed4fb3eba92e58e28d2f951e7ccd59ff0cc6a7-zDKAj6LSWgNTGEca',
+            user: process.env.EMAIL_USER,
+            pass: process.env.EMAIL_PASSWORD
         },
         /* tls: {
             rejectUnauthorized: false   // Para que no de error al enviar el email...
